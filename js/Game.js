@@ -168,7 +168,8 @@ class Game {
       database.ref("/").set({
         playerCount: 0,
         gameState: 0,
-        players: {}
+        players: {},
+        carsAtEnd: 0
       });
       window.location.reload();
     });
